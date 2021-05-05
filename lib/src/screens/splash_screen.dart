@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   Container(
                     padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
                     width: widthScreen,
-                    height: 50,
+                    height: 40,
                     child: OutlineButton(
                       onPressed: () {
                         Navigator.push(
@@ -51,12 +51,11 @@ class _SplashScreenState extends State<SplashScreen> {
 
                       shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(25.0)),
-                        borderSide: BorderSide(color: Colors.white,width: 3),
+                        borderSide: BorderSide(color: Colors.white,width: 2),
                       child: Text('Bắt đầu',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 18,
-                            fontFamily: 'Pacifico',
+                            fontSize: 16,
                           )),
                     ),
                   ),
@@ -66,8 +65,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     child: Text('Giới thiệu chung',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 18,
-                          fontFamily: 'Pacifico',
+                          fontSize: 14,
                         )),
                   ),
                   Container(
@@ -77,8 +75,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         'Ứng dụng dựa trên trải nghiệm thực tế của nhiều người khi đến Phú Quốc. Nơi đây là một hòn đảo xinh đẹp và chứa đụng nhiều điều bí ẩn mà không phải ai cũng khám phá hết được',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 14,
-                          fontFamily: 'Pacifico',
+                          fontSize: 12,
                         )),
                   )
                 ],

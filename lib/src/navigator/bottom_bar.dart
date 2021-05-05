@@ -40,24 +40,22 @@ class _BottomBarState extends State<BottomBar> with SingleTickerProviderStateMix
       extendBody: true,
       bottomNavigationBar: Container(
         color: Colors.transparent,
-        padding: EdgeInsets.all(15.0),
         child: ClipRRect(
-          borderRadius: BorderRadius.all(
-            Radius.circular(20.0),
-          ),
+          // borderRadius: BorderRadius.all(
+          //   Radius.circular(20.0),
+          // ),
           child: Container(
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(20),
-                  topRight: Radius.circular(20),
-                  bottomLeft: Radius.circular(20),
-                  bottomRight: Radius.circular(20)
-              ),
+              // borderRadius: BorderRadius.only(
+              //     topLeft: Radius.circular(20),
+              //     topRight: Radius.circular(20),
+              //     bottomLeft: Radius.circular(20),
+              //     bottomRight: Radius.circular(20)
+              // ),
               boxShadow: [
                 BoxShadow(
                   color: Colors.grey.withOpacity(0.5),
-                  spreadRadius: 5,
                   blurRadius: 7,
                   offset: Offset(0, 3), // changes position of shadow
                 ),
